@@ -1,4 +1,5 @@
 #NFETC-CLHLS
+
 The code for DASFAA(2022) paper `A Three-Stage Curriculum Learning Framework with Hierarchical Label Smoothing for Fine-Grained Entity Typing`
 
 ##Request
@@ -26,5 +27,6 @@ Run `python eval.py -m <model_name> -d <data_name> -r <runs> -g <gpu>` and the s
 * `<runs>`: the number of repetitions of the experiment.
 
 ##Acknowledge
+
 Code is based on previous work: [NFETC-AR](https://www.ijcai.org/proceedings/2020/0527.pdf), [NFETC-CLSC](https://github.com/herbertchen1/NFETC-CLSC) and [NFETC](https://github.com/billy-inn/NFETC), many thanks to them.  
 For more implementation details, please read the source code.
